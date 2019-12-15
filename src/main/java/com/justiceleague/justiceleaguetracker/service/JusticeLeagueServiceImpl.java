@@ -31,6 +31,8 @@ public class JusticeLeagueServiceImpl implements JusticeLeagueService {
                 "Tapping into the speed force", "Time travel"), "Central city");
         SuperHero batman = new SuperHero("Bruce Wayne", Arrays.asList("Super rich", "Cool Gadgets"),
                 "Gotham");
+        SuperHero batman = new SuperHero("Jack Chen", Arrays.asList("Gongfu King", "Hot Star"),
+                "Donts");
         return Arrays.asList(superMan, flash, batman);
     }
 }
