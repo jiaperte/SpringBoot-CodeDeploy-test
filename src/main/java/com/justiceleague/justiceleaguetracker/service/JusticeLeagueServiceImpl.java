@@ -33,6 +33,6 @@ public class JusticeLeagueServiceImpl implements JusticeLeagueService {
                 "Gotham");
         SuperHero Jack = new SuperHero("Jack Chen", Arrays.asList("Gongfu King", "Hot Star"),
                 "Donts");
-        return Arrays.asList(superMan, flash, batman);
+        return Arrays.asList(superMan, flash, batman, Jack);
     }
 }
