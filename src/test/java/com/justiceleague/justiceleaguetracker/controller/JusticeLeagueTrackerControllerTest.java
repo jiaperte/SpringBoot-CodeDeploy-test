@@ -50,6 +50,8 @@ public class JusticeLeagueTrackerControllerTest {
                 "Tapping into the speed force", "Time travel"), "Central city");
         SuperHero batman = new SuperHero("Bruce Wayne", Arrays.asList("Super rich", "Cool Gadgets"),
                 "Gotham");
-        return Arrays.asList(superMan, flash, batman);
+        SuperHero Jack = new SuperHero("Jack Chen", Arrays.asList("Gongfu King", "Hot Star"),
+                "Donts");
+        return Arrays.asList(superMan, flash, batman, Jack);
     }
 }
